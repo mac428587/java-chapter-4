@@ -48,8 +48,6 @@ public class App {
         System.out.println("\n** CHAPTER 1 MILESTONE 3 **");
         System.out.print("Enter a radius: ");
         double radius = scanner.nextDouble();
-        System.out.print("Circumference: ");
-        double circumference = scanner.nextDouble();
         // Call the Chapter 1 Milestone 3 method here
 
         System.out.println("\n** CHAPTER 2 MILESTONE 1 **");
@@ -79,9 +77,7 @@ public class App {
         // Call the Chapter 3 Milestone 1 method here
 
         System.out.println("\n** CHAPTER 3 MILESTONE 2 **");
-        System.out.println("Enter a number:");
-        int num3_2 = scanner.nextInt();
-        // Call the Chapter 3 Milestone 2 method here
+        // Call the Chapter 3 Milestone 2 method here, pass the scanner object
 
         System.out.println("\n** CHAPTER 3 MILESTONE 3 **");
         int min = 1;
@@ -95,9 +91,6 @@ public class App {
         // Call the Chapter 3 Milestone 3 method here
         Chapter3 chapter3 = new Chapter3();
         chapter3.milestone3(randNum1, randNum2, num3_3);
-
-        System.out.println("\n** CHAPTER 3 MILESTONE 4 **");
-        // Call the Chapter 3 Milestone 4 method here
 
         scanner.close();
     }
