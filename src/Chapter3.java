@@ -1,7 +1,7 @@
 public class Chapter3 {
     // Declare the Chapter 3 Milestone 1 method here
     
-    // Declare the Chapter 3 Milestone 2 method here
+    // Declare the Chapter 3 Milestone 2 method here, get a Scanner object as a parameter
 
     public void milestone3(int num1, int num2, int answer) {
         if (num1 * num2 == answer)
