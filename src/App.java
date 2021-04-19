@@ -18,9 +18,9 @@ class Chapter2 {
     }
     
     // Declare the Chapter 2 Milestone 3 method here
-    void chapter2milestone3(int num){
+    void chapter2milestone3(){
     int i = 0;
-    num = 0;
+    int num = 0;
     String primeNumbers = "1 2 ";
     System.out.println("Prime numbers from 1 to 100 are :");
         for (i = 3; i <= 100; i++) {
@@ -40,11 +40,7 @@ class Chapter2 {
      }
     // Declare the Chapter 2 Milestone 4 method here
     void chapter2milestone4(Scanner scanner, int seconds){
-    System.out.print(" enter seconds ");
-    int seconds = reader.nextInt();
-
     int days = seconds / (24 * 3600);
-
     seconds = seconds % (24 * 3600);
     int hours = seconds / 3600;
     seconds %= 3600;
@@ -65,11 +61,6 @@ public class App {
     
     // Declare the Chapter 1 Milestone 2 method here
     static void chapter1milestone2(double number1, double number2, Scanner sc){	
-        System.out.print("Please Enter the First Number:");
-		number1 = sc.nextDouble();
-
-		System.out.print("Please Enter the Second Number:");
-		number2 = sc.nextDouble();
 
 		System.out.println("Average of two numbers is:" + (number1 + number2) / 2);
     }
@@ -118,7 +109,7 @@ public class App {
         System.out.println("\n** CHAPTER 2 MILESTONE 3 **");
         // Call the Chapter 2 Milestone 3 method here
 
-        chapter2.chapter2milestone3(scanner,seconds);
+        chapter2.chapter2milestone3();
 
         System.out.println("\n** CHAPTER 2 MILESTONE 4 **");
         System.out.println("Enter a number for seconds:");
